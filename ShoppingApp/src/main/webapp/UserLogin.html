@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#main{
+
+    margin: 100px auto;
+
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+input::placeholder{
+    color: gray;
+
+}
+
+    
+
+
+</style>
+</head>
+<body>
+	
+    <div id="main">
+	<form action="ulogin" method="post">
+	UserName:	<input type="text" name="uname" required placeholder="UserName"><br>
+	UserPass:	<input type="text" name="pword" required placeholder="PassWord"><br>
+		<input type="submit" value="Login">	
+	</form>
+	<a href="UserRegister.html">New User?</a>
+</div>
+</body>
+</html>
